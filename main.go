@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -12,14 +11,15 @@ func main() {
 	stringDecoder("WUBAWUBBWUBCWUB")
 }
 
-//use package strings
-func stringDecoder(song string) {
+func stringDecoder(song string) string {
 	// remove WUB
 	song = strings.ReplaceAll(song, "WUB", " ")
-	// adjust spac
+	// adjust space
 	song = strings.ReplaceAll(song, "   ", " ")
 	song = strings.ReplaceAll(song, "  ", " ")
 	song = strings.Trim(song, " ")
-	// print
-	fmt.Println(song)
+	
+	return song
 }
+
+
