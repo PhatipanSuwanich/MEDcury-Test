@@ -10,7 +10,8 @@ command $ .\MEDcury_test.exe => for run main.go
     * WE ARE THE BACKYARD MY FRIEND
 
 * TEST NO.2
-    * Phone => 1-121-504-8974, Name => Arthur Clarke, Address => San Antonio TT-45120
+    * Phone => 1-541-754-3010, Name => J Steeve, Address => 156 Alphand St.
+    * Phone => 1-741-984-3090, Name => Peter Reedgrave, Address => Chicago
     * Error => Too many people: 1-098-512-2222
     * Error => Not found: 5-555-555-5555
 
@@ -18,12 +19,12 @@ command $ .\MEDcury_test.exe => for run main.go
 
 Running tool: C:\Go\bin\go.exe test -timeout 30s -run **^TestStringDecoder$**
 
-[x] PASS
+PASS
 
 ok  	_/d_/Benz/MEDcury_test	0.283s
 
 Running tool: C:\Go\bin\go.exe test -timeout 30s -run **^TestPhoneBooks$**
 
-[x] PASS
+PASS
 
-ok  	_/d_/Benz/MEDcury_test	0.430s
+ok  	_/d_/Benz/MEDcury_test	0.302s
